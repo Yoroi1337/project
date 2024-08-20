@@ -1,0 +1,62 @@
+header div {
+  width: 100%;
+  max-width: 66px;
+  height: 66px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 4px;
+}
+header div.gear--wheel {
+  float: right;
+}
+header div.gear--wheel a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header div.gear--wheel a img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+header div.gear--wheel a img:active {
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+section div.objects {
+  text-align: center;
+  overflow: hidden;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px;
+}
+section div.objects div.png {
+  width: 100%;
+  max-width: 16rem;
+  height: 16rem;
+  display: inline-block;
+  overflow: hidden;
+  padding: 2rem;
+}
+section div.objects div.png a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section div.objects div.png a img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+section div.objects div.png a img:not(:hover) {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.3s;
+}
+section div.objects div.png a img:active {
+  transform: scale(1);
+  transition: 0.3s;
+}
